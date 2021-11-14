@@ -3,7 +3,7 @@ Accept: application/json
 
 ###
 
-GET http://127.0.0.1:1234/notes/3
+GET http://127.0.0.1:1234/notes/6
 Accept: application/json
 
 ###

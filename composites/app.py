@@ -22,7 +22,6 @@ def create_app() -> App:
     return app
 
 
-if __name__ == '__main__':
-    app = create_app()
-    httpd = simple_server.make_server('127.0.0.1', 1234, app)
-    httpd.serve_forever()
+app = create_app()
+httpd = simple_server.make_server('127.0.0.1', 1234, app)
+httpd.serve_forever()
